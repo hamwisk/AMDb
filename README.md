@@ -22,7 +22,7 @@ AMDb is a user-friendly application designed to manage and explore your digital 
 
 The program is written in Python and packaged as a standalone executable for Linux systems. Follow these steps to install AMDb:
 
-1. Download the installer package from the [releases page](link-to-releases).
+1. Download the installer package from the [releases page]([link-to-releases](https://github.com/hamwisk/AMDb/releases)).
 2. Ensure the installer has the correct permissions to run as an executable:
    ```bash
    chmod +x amdb_installer.run
