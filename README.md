@@ -55,7 +55,7 @@ amdb
 - **Search and Sort**: Comprehensive search options and sorting by title, release date, or date added.
 - **View Modes**: Grid view for a visually appealing layout or list view for batch operations.
 
-![Screenshot] (images/Screenshot from 2024-07-06 06-30-43.png)
+[Screenshot] (images/Screenshot from 2024-07-06 06-30-43.png)
 
 ## Features
 
