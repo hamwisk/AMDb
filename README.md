@@ -84,6 +84,6 @@ I haven’t decided on a license yet. If you have suggestions or guidance on thi
 
 ## Credits
 
-AMDb was developed solely by me, inspired by my dad's extensive movie collection. The project uses Qt for the GUI and dual-threading, with Python handling the backend. Key libraries include `os` and `sys`.
+AMDb was developed solely by me, inspired by my dad's extensive movie collection. The project uses an SQL database, Qt for the GUI and dual-threading, with Python handling the backend. Key libraries include `os` and `sys`.
 
 ---
