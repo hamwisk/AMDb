@@ -55,7 +55,9 @@ amdb
 - **Search and Sort**: Comprehensive search options and sorting by title, release date, or date added.
 - **View Modes**: Grid view for a visually appealing layout or list view for batch operations.
 
-[Screenshot](https://github.com/hamwisk/AMDb/blob/main/images/Screenshot%20from%202024-07-06%2006-30-43.png?raw=true)
+[Screenshot](https://github.com/hamwisk/AMDb/blob/main/images/Screenshot%20from%202024-07-06%2006-30-43.png)
+[Screenshot](https://github.com/hamwisk/AMDb/blob/main/images/Screenshot%20from%202024-07-06%2006-37-00.png)
+[Screenshot](https://github.com/hamwisk/AMDb/blob/main/images/Screenshot%20from%202024-07-06%2006-40-22.png)
 
 ## Features
 
