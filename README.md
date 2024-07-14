@@ -2,7 +2,7 @@
 
 # Andy's Movie Database (AMDb)
 
-AMDb is a movie catalog program designed to help you organize your digital movie collection. Originally developed for my dad, this program is perfect for anyone with a digital movie library, offering a blend of automation and user control.
+AMDb is a versatile movie catalog program designed to help you organize your digital movie collection across multiple platforms. Originally developed for personal use, this program is ideal for anyone with a digital movie library, offering a blend of automation and user control.
 
 ## Table of Contents
 
@@ -20,8 +20,19 @@ AMDb is a user-friendly application designed to manage and explore your digital 
 
 ## Installation
 
-The program is written in Python and packaged as a standalone executable for Linux systems. Follow these steps to install AMDb:
+The program is written in Python and packaged as a standalone executable for Windows, macOS, and Linux systems. Follow these steps to install AMDb:
 
+### Windows
+1. Download the installer package from the [releases page](https://github.com/hamwisk/AMDb/releases).
+2. Run the installer and follow the on-screen instructions.
+3. Once installation is complete, a desktop shortcut will be created, and AMDb can be launched from the Start menu.
+
+### macOS
+1. Download the installer package from the [releases page](https://github.com/hamwisk/AMDb/releases).
+2. Open the downloaded .dmg file and drag AMDb to your Applications folder.
+3. Launch AMDb from the Applications folder or Spotlight search.
+
+### Linux
 1. Download the installer package from the [releases page](https://github.com/hamwisk/AMDb/releases).
 2. Ensure the installer has the correct permissions to run as an executable:
    ```bash
@@ -33,7 +44,7 @@ The program is written in Python and packaged as a standalone executable for Lin
    ```
 4. Once installation is complete, a desktop shortcut will be created, and AMDb can be launched from the system's program menu.
 
-For non-Linux systems or running the Python scripts directly, ensure Python is installed on your machine and run the following:
+For running the Python scripts directly, ensure Python is installed on your machine and run the following:
 ```bash
 git clone https://github.com/yourusername/AMDb.git
 cd AMDb
@@ -53,7 +64,7 @@ amdb
 - **Scanning Folders**: The program can recursively scan local folders to detect movie files, clean their filenames, and generate a list of potential entries.
 - **Metadata Retrieval**: Uses OMDb API to fetch full metadata and poster images for selected movies. An OMDb API key is required, which can be obtained for free.
 - **Search and Sort**: Comprehensive search options and sorting by title, release date, or date added.
-- **View Modes**: Grid view for a visually appealing layout or list view for batch operations.
+- **View Modes**: Grid view for a visually appealing layout or list view for editing and batch operations.
 
 [Screenshot](https://github.com/hamwisk/AMDb/blob/main/images/Screenshot%20from%202024-07-06%2006-30-43.png)
 [Screenshot](https://github.com/hamwisk/AMDb/blob/main/images/Screenshot%20from%202024-07-06%2006-37-00.png)
@@ -61,6 +72,7 @@ amdb
 
 ## Features
 
+- **Cross-Platform Support**: Available for Windows, macOS, and Linux.
 - **Automated Movie Detection**: Recursively scans folders and detects movie files.
 - **Metadata Retrieval**: Fetches full metadata and poster images from OMDb API.
 - **Search Functionality**: Search by title, actors, director, writer, genre, rating, and release date.
@@ -70,7 +82,7 @@ amdb
 
 ## Contributing
 
-As this is my first GitHub project, I’m open to contributions and learning from the community. Here’s how you can contribute:
+We welcome contributions from the community. Here’s how you can contribute:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-branch`).
@@ -82,10 +94,10 @@ Feel free to report issues through the GitHub issues page.
 
 ## License
 
-I haven’t decided on a license yet. If you have suggestions or guidance on this, I’d appreciate the input.
+AMDb is licensed under the MIT License. For more information, see the LICENSE file.
 
 ## Credits
 
-AMDb was developed solely by me, inspired by my dad's extensive movie collection. The project uses an SQL database, Qt for the GUI and dual-threading, with Python handling the backend. Key libraries include `os` and `sys`.
+AMDb was developed by the AMDb team, inspired by a passion for movies and efficient data management. The project uses an SQL database, Qt for the GUI, and Python for the backend.
 
 ---
