@@ -1,0 +1,10 @@
+.
+├── Comprehensive_Testing_Plan.pdf
+├── Deployment_Plan_for_AMDb_Version_5.3.pdf
+├── filesystem_structure.txt
+├── Hosting_and_Distribution_Options_Report.pdf
+├── Linux_Installer_Report.pdf
+├── macOS_Installer_report.pdf
+└── Windows_Installer_Report.pdf
+
+0 directories, 7 files
